@@ -1,7 +1,7 @@
 {
   "name": "CS355-node-practice",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.2.0",
+  "description": "this is basic json package",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/AsifTalukder/CS355-node-practice.git"
   },
-  "keywords": [],
+  "keywords": ["asif", "cs355", "qc"],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/AsifTalukder/CS355-node-practice#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios":"^0.24.0",
+    "express": "^4.17.1",
+    "moment":"^2.29.1" 
   }
 }
